@@ -63,7 +63,7 @@ var niederlande = [
             { Mn: 87, Besitz: "", Doppelt: 0 },
             { Mn: 88, Besitz: "", Doppelt: 0 },
             { Mn: 89, Besitz: "", Doppelt: 0 },
-            { Mn: 90, Besitz: "", Doppelt: 0 },
+            { Mn: 90, Besitz: "o", Doppelt: 0 },
             { Mn: 91, Besitz: "", Doppelt: 0 },
             { Mn: 92, Besitz: "", Doppelt: 0 },
           ],
