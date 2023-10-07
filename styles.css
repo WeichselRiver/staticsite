@@ -1,0 +1,13 @@
+body {
+    padding: 1cm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.besitz {
+    margin: 5px; 
+    padding: 5px; 
+    border-style: solid;
+    border-width: 5px;
+    display: inline;
+}
+

@@ -1,47 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="niederlande.js"></script>
     <script src="//unpkg.com/alpinejs" defer></script>
     <title>Niederlande</title>
-    <style>
-        .besitz {
-            margin: 5px; 
-            padding: 5px; 
-            border-style: solid;
-            border-width: 5px;
-        }
-    </style>
-</head>
-<body>
-   <a href="index.html">&#x2302;</a>
+    <link rel="stylesheet" href="styles.css" />
+    <style></style>
+  </head>
+  <body>
+    <a style="font-size: 2.5em" href="index.html">&#x2302;</a>
     <h1>Niederlande</h1>
-    <div x-data=niederlande>
-        <template x-for="Jahrgang in niederlande">
-            <div>
-                <h2 x-text="Jahrgang['Jahr']"></h2>
-                <template x-for="satz in Jahrgang['Saetze']">
-                    <div>
-                        <p x-text="satz['Satz']"></p>
-                        <div style="display: flex;">
-                            <template x-for="mn in satz['marken']">
-                                <p class="besitz" x-bind:style="mn['Besitz'] != '' && { backgroundColor: 'green' }"   x-text = "mn['Mn']"></p>
-                        
-                            </template>
-
-                        </div>
-                  
-                    </div>
-                </template>
-            </div>
-        </template>
-
+    <div x-data="niederlande">
+      <template x-for="Jahrgang in niederlande">
+        <div style="display: flex;">
+          <h2 style="margin-right: 1cm;"  x-text="Jahrgang['Jahr']"></h2>
+          <div>
+            <template x-for="satz in Jahrgang['Saetze']">
+              <div>
+                <div style="display: flex">
+                  <template x-for="mn in satz['marken']">
+                    <p
+                      class="besitz"
+                      x-bind:style="mn['Besitz'] != '' && { backgroundColor: 'green' }"
+                      x-text="mn['Mn']"
+                    ></p>
+                  </template>
+                </div>
+              </div>
+            </template>
+          </div>
+        </div>
+      </template>
     </div>
     <script>
-    
-        console.log(niederlande)
-        </script>
-</body>
+      console.log(niederlande);
+    </script>
+  </body>
 </html>
