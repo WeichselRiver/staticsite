@@ -15,10 +15,13 @@
     <div x-data="niederlande">
       <template x-for="Jahrgang in niederlande">
         <div style="display: flex;">
-          <h2 style="margin-right: 1cm;"  x-text="Jahrgang['Jahr']"></h2>
+          <div>
+            <h2 style="margin-right: 1cm;"  x-text="Jahrgang['Jahr']"></h2>
+          </div>
           <div>
             <template x-for="satz in Jahrgang['Saetze']">
               <div>
+                <p x-text="get_satz_besitz(satz['marken'])['perc']*100"></p>
                 <div style="display: flex">
                   <template x-for="mn in satz['marken']">
                     <p
@@ -36,6 +39,20 @@
     </div>
     <script>
       console.log(niederlande);
+
+
+      function get_satz_besitz(marken_array){
+        let stat = {
+          "anz": marken_array.length, 
+          "besitz" : 0};
+        marken_array.forEach((x) => {
+          if (x['Besitz'] != '')
+          {stat['besitz'] += 1}
+        });
+        stat["perc"] = stat["besitz"]/stat["anz"];
+        return stat;
+      }
+      
     </script>
   </body>
 </html>

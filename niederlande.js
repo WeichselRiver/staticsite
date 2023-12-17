@@ -113,4 +113,101 @@ var niederlande = [
           },
       ],
   },
+  {
+    Jahr: 1921,
+    Saetze: [
+        {
+          Satz: "101",
+          marken: [
+            { Mn: 101, Besitz: "o", Doppelt: 0 },
+          ],
+        },
+        {
+            Satz: "102-104",
+            marken: [
+              { Mn: 102, Besitz: "o", Doppelt: 0 },
+              { Mn: 103, Besitz: "o", Doppelt: 0 },
+              { Mn: 105, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "105-106",
+            marken: [
+              { Mn: 105, Besitz: "o", Doppelt: 0 },
+              { Mn: 106, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "107-109",
+            marken: [
+              { Mn: 107, Besitz: "o", Doppelt: 0 },
+              { Mn: 108, Besitz: "o", Doppelt: 0 },
+              { Mn: 109, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+      ],
+  },
+  {
+    Jahr: 1923,
+    Saetze: [
+        {
+          Satz: "110-111",
+          marken: [
+            { Mn: 110, Besitz: "o", Doppelt: 0 },
+            { Mn: 111, Besitz: "o", Doppelt: 0 },
+          ],
+        },
+        {
+            Satz: "112-115",
+            marken: [
+              { Mn: 112, Besitz: "o", Doppelt: 0 },
+              { Mn: 113, Besitz: "o", Doppelt: 0 },
+              { Mn: 114, Besitz: "o", Doppelt: 0 },
+              { Mn: 115, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "116-122",
+            marken: [
+              { Mn: 116, Besitz: "o", Doppelt: 0 },
+              { Mn: 117, Besitz: "o", Doppelt: 0 },
+              { Mn: 118, Besitz: "o", Doppelt: 0 },
+              { Mn: 119, Besitz: "o", Doppelt: 0 },
+              { Mn: 120, Besitz: "o", Doppelt: 0 },
+              { Mn: 121, Besitz: "o", Doppelt: 0 },
+              { Mn: 122, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "123-133",
+            marken: [
+              { Mn: 123, Besitz: "o", Doppelt: 0 },
+              { Mn: 124, Besitz: "o", Doppelt: 0 },
+              { Mn: 125, Besitz: "o", Doppelt: 0 },
+              { Mn: 126, Besitz: "o", Doppelt: 0 },
+              { Mn: 127, Besitz: "o", Doppelt: 0 },
+              { Mn: 128, Besitz: "o", Doppelt: 0 },
+              { Mn: 129, Besitz: "o", Doppelt: 0 },
+              { Mn: 130, Besitz: "o", Doppelt: 0 },
+              { Mn: 131, Besitz: "", Doppelt: 0 },
+              { Mn: 132, Besitz: "", Doppelt: 0 },
+              { Mn: 133, Besitz: "", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "134-135",
+            marken: [
+              { Mn: 134, Besitz: "", Doppelt: 0 },
+              { Mn: 135, Besitz: "", Doppelt: 0 },
+            ],
+          },
+          {
+            Satz: "136-137",
+            marken: [
+              { Mn: 136, Besitz: "o", Doppelt: 0 },
+              { Mn: 137, Besitz: "o", Doppelt: 0 },
+            ],
+          },
+      ],
+  },
 ];
